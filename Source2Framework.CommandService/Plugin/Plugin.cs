@@ -7,7 +7,7 @@
 
     using Source2Framework.Services.Command;
 
-    [MinimumApiVersion(213)]
+    [MinimumApiVersion(214)]
     public sealed partial class CommandServicePlugin : BasePlugin, IS2FModule
     {
         public required IFramework Framework { get; set; }
