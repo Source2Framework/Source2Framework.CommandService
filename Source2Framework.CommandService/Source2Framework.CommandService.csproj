@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Command\Models\**" />
+    <EmbeddedResource Remove="Command\Models\**" />
+    <None Remove="Command\Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CounterStrikeSharp.API" Version="1.0.213" />
+    <PackageReference Include="Source2Framework.SDK" Version="[1.0.7,)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Source2Framework.CommandService.API\Source2Framework.CommandService.API.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Microsoft.Extensions.DependencyInjection" />
+    <Using Include="Microsoft.Extensions.Logging" />
+  </ItemGroup>
+
+</Project>
