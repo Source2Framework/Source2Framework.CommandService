@@ -3,6 +3,21 @@
 > [!IMPORTANT]  
 > This module requires [Source2Framework.Core](https://github.com/Source2Framework/Source2Framework)
 
+# Installation
+- Download the latest build
+- Drag & drop the content to your server
+
+# Service API Reference
+
+Available on [NuGet](https://www.nuget.org/packages/Source2Framework.CommandService.API/)
+[![NuGet version (Source2Framework.CommandService.API)](https://img.shields.io/nuget/v/Source2Framework.CommandService.API.svg?style=flat-square)](https://www.nuget.org/packages/Source2Framework.CommandService.API/)
+
+```
+dotnet add package Source2Framework.CommandService.API --version 1.0.0
+```
+
+# Service interface
+
 ```csharp
 /// <summary>
 /// This service exposes the internal <see cref="CommandManager"/>.
