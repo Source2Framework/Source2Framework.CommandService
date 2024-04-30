@@ -1,5 +1,8 @@
 # Source2Framework.CommandService
 
+> [!IMPORTANT]  
+> This module requires [Source2Framework.Core](https://github.com/Source2Framework/Source2Framework)
+
 ```csharp
 /// <summary>
 /// This service exposes the internal <see cref="CommandManager"/>.
